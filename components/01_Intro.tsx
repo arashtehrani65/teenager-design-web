@@ -262,7 +262,7 @@ export default function LoadingIntro({
       container: {
         left: "3.2%",
         right: "3.2%",
-        bottom: "7.2%",
+        bottom: "9.2%",
       },
 
       label: {
@@ -314,7 +314,7 @@ export default function LoadingIntro({
       position: {
         X: "0px",
         Y: "0px",
-        bottomOffset: "22px",
+        bottomOffset: "16px",
       },
 
       text: {
