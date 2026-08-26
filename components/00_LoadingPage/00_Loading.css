@@ -781,3 +781,18 @@
   display: none !important;
 }
   }
+
+/* ============================================================
+   MOBILE FIX — MOVE LOADING FOOTER UP
+   Only affects mobile screens
+   ============================================================ */
+
+@media (max-width: 700px) {
+  .loading-bottom-information {
+    bottom: 6.5%;
+  }
+
+  .loading-group-02 {
+    transform: translateY(-35px) scale(1);
+  }
+}

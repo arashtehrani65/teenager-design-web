@@ -853,3 +853,80 @@
 .td-status-frame--outer::after {
   display: none;
 }
+
+/* ============================================================
+   MOBILE FIX — COMPACT STATUS POPUP
+   Only affects mobile screens
+   ============================================================ */
+
+@media (max-width: 760px) {
+  .td-status-popup {
+    height: calc(100vh - 40px);
+  }
+
+  .td-status-inner {
+    padding-top: 20px;
+    padding-bottom: 14px;
+  }
+
+  .td-status-main {
+    padding-top: 20px;
+    padding-bottom: 16px;
+    gap: 20px;
+  }
+
+  .td-status-scan {
+    width: 190px;
+    height: 175px;
+  }
+
+  .td-status-description {
+    margin-top: 20px;
+  }
+
+  .td-contact-item {
+    min-height: 62px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .td-contact-icon-wrap {
+    width: 34px;
+    height: 34px;
+    flex-basis: 34px;
+    margin-right: 10px;
+  }
+
+  .td-contact-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .td-contact-copy {
+    gap: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .td-status-popup {
+    height: calc(100vh - 28px);
+  }
+
+  .td-status-inner {
+    padding: 18px 16px 12px;
+  }
+
+  .td-status-main {
+    padding-top: 16px;
+    gap: 16px;
+  }
+
+  .td-status-scan {
+    width: 170px;
+    height: 155px;
+  }
+
+  .td-contact-item {
+    min-height: 58px;
+  }
+}
