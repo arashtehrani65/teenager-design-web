@@ -23,26 +23,26 @@ export type IntroStatusPopupProps = {
 const DEFAULT_CONTACTS: IntroStatusContact[] = [
   {
     label: "TELEGRAM",
-    value: "@teenagerdesign",
-    href: "#",
+    value: "@Arash_Little_A2",
+    href: "https://t.me/Arash_Little_A2",
     icon: "telegram",
   },
   {
     label: "WHATSAPP",
-    value: "+98 912 123 4567",
-    href: "#",
+    value: "+90 534 337 6199",
+    href: "https://wa.me/905343376199",
     icon: "whatsapp",
   },
   {
     label: "INSTAGRAM",
-    value: "@teenager.design",
-    href: "#",
+    value: "@arash_littlea2",
+    href: "https://www.instagram.com/arash_littlea2/",
     icon: "instagram",
   },
   {
     label: "EMAIL",
-    value: "info@teenager.design",
-    href: "#",
+    value: "arashtehrani65@yahoo.com",
+    href: "mailto:arashtehrani65@yahoo.com",
     icon: "email",
   },
 ];
