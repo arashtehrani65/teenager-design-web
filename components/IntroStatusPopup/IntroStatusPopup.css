@@ -930,3 +930,127 @@
     min-height: 58px;
   }
 }
+
+/* ============================================================
+   MOBILE FIX — COMPACT STATUS POPUP (FINAL)
+   Only affects mobile screens
+   ============================================================ */
+
+@media (max-width: 760px) {
+
+  .td-status-overlay {
+    padding: 8px;
+  }
+
+  .td-status-popup {
+    width: calc(100vw - 16px);
+    height: calc(100vh - 16px);
+  }
+
+  .td-status-inner {
+    padding: 16px 14px 10px;
+  }
+
+  .td-status-header {
+    min-height: 34px;
+  }
+
+  .td-status-close {
+    width: 30px;
+    height: 30px;
+    flex-basis: 30px;
+  }
+
+  .td-status-main {
+    padding: 12px 0 10px;
+    gap: 12px;
+  }
+
+  .td-status-scan {
+    width: 150px;
+    height: 140px;
+  }
+
+  .td-scan-qr-wrap,
+  .td-scan-center-frame {
+    width: 120px;
+    height: 120px;
+  }
+
+  .td-status-description {
+    margin-top: 12px;
+    line-height: 1.55;
+  }
+
+  .td-status-description p {
+    margin-bottom: 10px;
+  }
+
+  .td-status-more {
+    margin-top: 12px;
+  }
+
+  .td-contact-contact {
+    padding-top: 8px;
+  }
+
+  .td-contact-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .td-contact-item {
+    min-height: 54px;
+    padding: 5px 8px 5px 2px;
+  }
+
+  .td-contact-icon-wrap {
+    width: 28px;
+    height: 28px;
+    flex-basis: 28px;
+    margin-right: 8px;
+  }
+
+  .td-contact-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .td-contact-copy {
+    gap: 2px;
+  }
+
+  .td-contact-label,
+  .td-contact-value {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .td-status-inner {
+    padding: 14px 12px 8px;
+  }
+
+  .td-status-title {
+    font-size: 16px;
+  }
+
+  .td-status-description {
+    font-size: 11px;
+  }
+
+  .td-status-scan {
+    width: 135px;
+    height: 125px;
+  }
+
+  .td-scan-qr-wrap,
+  .td-scan-center-frame {
+    width: 105px;
+    height: 105px;
+  }
+
+  .td-contact-item {
+    min-height: 50px;
+  }
+}

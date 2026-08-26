@@ -697,8 +697,8 @@
 @media (max-width:700px) {
   .loading-group-01,
   .loading-group-02 {
-    left: 10%;
-  }
+  transform: translateY(-80px) scale(1);
+}
 
 .loading-group-02 {
   transform: scale(1);
